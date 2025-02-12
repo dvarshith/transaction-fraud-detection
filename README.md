@@ -33,8 +33,8 @@ We use the **Vesta Corporation dataset** (part of a Kaggle competition) (https:/
 - `TransactionID`
 - `isFraud` (target)
 - `TransactionDT`, `TransactionAmt`
-- Category features (ProductCD, card1, card2, etc.)
-- Identity features (DeviceType, DeviceInfo)
+- `Category features` (ProductCD, card1, card2, etc.)
+- `Identity features` (DeviceType, DeviceInfo)
  
 <br/>
 
@@ -64,16 +64,16 @@ We use the **Vesta Corporation dataset** (part of a Kaggle competition) (https:/
 
 ## Results
 ```
-| Model         | AUC-ROC |
-|---------------|---------|
-| Logistic Reg  | 0.80    |
-| Random Forest | 0.855   |
-| LightGBM      | **0.89**   |
-| CatBoost      | 0.881   |
-| XGBoost       | 0.874   |
-| Voting Ensembles | ~0.86  |
-| Stacking      | 0.88    |
-| AutoEncoder   | 0.86    |
+| Model            | AUC-ROC  |
+|------------------|----------|
+| Logistic Reg     |   0.80   |
+| Random Forest    |   0.855  |
+| LightGBM         | **0.89** |
+| CatBoost         |   0.881  |
+| XGBoost          |   0.874  |
+| Voting Ensembles |   0.86   |
+| Stacking         |   0.88   |
+| AutoEncoder      |   0.86   |
 ```
 **LightGBM** emerges as the top performer with **0.89** AUC-ROC, balancing speed and accuracy on this high-dimensional dataset. 
 
