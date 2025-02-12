@@ -109,6 +109,7 @@ We use the **Vesta Corporation dataset** (part of a Kaggle competition) (https:/
 
 ## Acknowledgments
 - Dataset by Vesta Corporation [https://www.kaggle.com/competitions/ieee-fraud-detection/overview].
+- Project under Dr. Yanjie Fu, Arizona State University.
 
  </br>
 
